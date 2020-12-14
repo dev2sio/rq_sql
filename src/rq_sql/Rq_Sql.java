@@ -1,8 +1,7 @@
 
 /*
-* To change this license header, choose License Headers in Project Properties.
-* To change this template file, choose Tools | Templates
-* and open the template in the editor.
+* Version à finaliser
+* 
  */
 package rq_sql;
 
@@ -20,8 +19,8 @@ import java.sql.Statement;
 public class Rq_Sql {
     static String            DB_URL      = "jdbc:mysql://localhost:3306/parc";    // URL de la BBD
     static String            DB_DRV      = "org.mariadb.jdbc.Driver";            // Driver MySQL
-    static String            DB_USER     = "root";                                // Utilisateur MYSQL
-    static String            DB_PASSWD   = "roiklem";                             // Mot de passe
+    static String            DB_USER     = "mysql";                                // Utilisateur MYSQL
+    static String            DB_PASSWD   = "azerty";                             // Mot de passe
     static boolean           erreur      = false;
     static Connection        dcl_connect = null;
     static Statement         lie_connect = null;
