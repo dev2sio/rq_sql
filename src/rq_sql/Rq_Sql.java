@@ -1,6 +1,6 @@
 
 /*
-* Version à finaliser
+* Version à finaliser en cours des test
 * 
  */
 package rq_sql;
